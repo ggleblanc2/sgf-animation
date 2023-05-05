@@ -34,9 +34,9 @@ When I create a Swing GUI, I use the [model-view-controller](https://en.wikipedi
 
 A Swing model consists of one or more plain Java getter/setter classes.
 
-A Swing view consists of one JFrame and as many JPanels and JDialogs as you need.
+A Swing view consists of one `JFrame` and as many `JPanels` and `JDialogs` as you need.
 
-Each Swing Action or Listener is its own controller. There's usually not one controller to "rule them all".
+Each Swing `Action` or `Listener` is its own controller. There's usually not one controller to "rule them all".
 
 This Java Swing application contains a parser and a parser model as well as the Swing model, view, and controllers.
 
